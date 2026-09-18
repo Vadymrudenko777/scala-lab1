@@ -1,0 +1,62 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:10:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m[33msealed[0m [33mtrait[0m [35mRiskLevel[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mindented definitions expected, sealed found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:24:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m[33mcase[0m HighRisk => [31m1.5[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m'{' expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:39:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m39 |[0mdata.par.foreach { [36mtransactionId[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:54:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0mprintln([31ms"Фінальний сумарний ризик (чистий конвеєр): [0m$finalRiskSum[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:11:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m[33mcase object[0m [35mHighRisk[0m [33mextends[0m [35mRiskLevel[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                             Not found: type RiskLevel[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:12:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m[33mcase object[0m [35mMediumRisk[0m [33mextends[0m [35mRiskLevel[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                               ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                               Not found: type RiskLevel[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:13:28 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m[33mcase object[0m [35mLowRisk[0m [33mextends[0m [35mRiskLevel[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                            ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                            Not found: type RiskLevel[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:16:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m[33mdef[0m [36mcategorize[0m([36mamount[0m: [35mDouble[0m): [35mRiskLevel[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                Not found: type RiskLevel[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:22:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m[33mdef[0m [36mgetMultiplier[0m([36mlevel[0m: [35mRiskLevel[0m): [35mDouble[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                         Not found: type RiskLevel[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:25:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m[33mcase[0m MediumRisk => [31m1.2[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mFound:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mRequired: Double[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\src\main\scala\Workshop.scala:52:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m  .sum[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mAmbiguous given instances: both [33mobject[0m [35mBigIntIsIntegral[0m in [33mobject[0m [35mNumeric[0m and [33mobject[0m [35mCharIsIntegral[0m in [33mobject[0m [35mNumeric[0m match type Numeric[B] of parameter num of [33mmethod[0m [35msum[0m in [33mtrait[0m [35mIterableOnceOps[0m[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

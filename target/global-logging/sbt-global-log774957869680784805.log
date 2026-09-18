@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 8efa5521-7c54-4b81-b661-85bf61bcaf32 __58872bf0-6042-4cd8-b64b-f66f911f31ff, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Git, Some(__58872bf0-6042-4cd8-b64b-f66f911f31ff), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(__58872bf0-6042-4cd8-b64b-f66f911f31ff): None[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 569b2a1a-ea8c-4d6a-879c-427bd32614f5, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: Git (similar: init, exit, set)[0m
+[0m[[0m[31merror[0m] [0m[0mGit isn't a query[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: Git[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '/'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: Git (similar: bgList, ivySbt)[0m
+[0m[[0m[31merror[0m] [0m[0mGit[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 8efa5521-7c54-4b81-b661-85bf61bcaf32, Some(8efa5521-7c54-4b81-b661-85bf61bcaf32), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId Some(8efa5521-7c54-4b81-b661-85bf61bcaf32): None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId Some(8efa5521-7c54-4b81-b661-85bf61bcaf32): {"code":-33000,"message":""}[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b3de8abf-9b66-4a00-9ad3-a5953f7f3ed0, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d2367434-b259-40ab-8963-881009ed2ac9, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 61e69132-247a-4490-a5b2-36489dddcd04, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m
