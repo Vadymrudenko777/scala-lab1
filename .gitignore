@@ -1,0 +1,9 @@
+.idea/
+.bsp/
+target/
+project/target/
+.metals/
+.bloop/
+*.iml
+*.iws
+.DS_Store

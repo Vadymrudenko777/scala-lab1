@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\target\out\jvm\scala-3.3.3\01_parallelism\01_parallelism_3-1.0-tests.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	WorkshopSpec.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\target\out\jvm\scala-3.3.3\01_parallelism\test-classes\WorkshopSpec.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	WorkshopSpec.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\user\Desktop\functional_programming-main\functional_programming-main\01_parallelism\target\out\jvm\scala-3.3.3\01_parallelism\test-classes\WorkshopSpec.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
-[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-3.3.3/01_parallelism/01_parallelism_3-1.0-tests.jar[0m
